@@ -35,6 +35,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/typed.min.js"></script>
+	  
 
    <!-- favicons
 	================================================== -->
@@ -103,7 +106,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				 
 			
 	   		</div>  
-   			
+   			<h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
    		</div>   		 		
    	</div> <!-- /intro-content --> 
 
@@ -1113,6 +1116,33 @@ business decisions</span>
   <script src="js/jquery-2.1.3.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script type="text/javascript">
+   var typed = new Typed('.typing',{
+      strings: ["Data Scientist", "Programmer", "Story-teller", "Problem Solver", "Quick Learner", "Team Player","Motivator"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+	<!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
   <script id="TelegramLiveChatLoader" data-bot="515DB87C-B56B-11EA-A36F-201623E822B5" src="//livechatbot.net/assets/chat/js/loader.js"></script>
 </body>
 </html>
